@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Test stage"
-                    find ./build -name "index.html"
+                    find ./build -name "ind.html"
                 '''
             }
         }
